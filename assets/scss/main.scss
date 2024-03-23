@@ -1,0 +1,19 @@
+// Required
+@import '../vendors/bootstrap-5.3.3/scss/functions';
+@import '../vendors/bootstrap-5.3.3/scss/variables';
+@import '../vendors/bootstrap-5.3.3/scss/variables-dark';
+//1. abstracts
+@import 'abstracts/variables',
+'abstracts/custom_bootstrap';
+//2. vendor
+@import '../vendors/bootstrap-5.3.3/scss/bootstrap.scss';
+//3. base
+@import './base/base', './base/typography';
+//4. layout
+@import 'layout/header',
+'layout/main';
+//5. components
+@import './components/navbar'
+//6. pages
+//7. themes
+

@@ -1,0 +1,39 @@
+.header{
+
+    padding: 2rem;
+
+   &__image{
+    width: 30rem;
+    height: auto;
+   }
+   &__logo-header{
+    font-family: "Freckle Face", system-ui;
+   }
+   &__subtitle{
+    color: $custom-violet;
+   }
+   &__wrapper-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1rem;
+   }
+   &__btn{
+    width: 15rem;
+   }
+}
+
+@media (max-width: 768px){
+.header{
+    &__image{
+        width: 20rem;
+    }
+    &__wrapper-btn{
+        display: flex;
+        justify-content: center;
+    }
+    &__btn{
+        width: 21rem;
+    }
+}
+}

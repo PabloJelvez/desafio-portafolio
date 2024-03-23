@@ -1,0 +1,12 @@
+// Create your own map
+
+//Paleta de colores de colorhunt
+$custom-colors: (
+  "custom-violet": $custom-violet,
+  "custom-pink": $custom-pink,
+  "custom-yellow": $custom-yellow,
+  "custom-green": $custom-green,
+);
+
+// Merge the maps
+$theme-colors: map-merge($theme-colors, $custom-colors);
